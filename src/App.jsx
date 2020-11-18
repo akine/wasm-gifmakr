@@ -47,6 +47,9 @@ function App() {
 
   return ready ? (
     <div className="App">
+    <h1>頭の5秒 GIF 変換君</h1>
+    <p>動画を選んでConvert押せば変換されます。</p>
+    <p>ただ最初の5秒にしかしてない。</p>
       {video && (
         <video controls width="500" src={URL.createObjectURL(video)}></video>
       )}
